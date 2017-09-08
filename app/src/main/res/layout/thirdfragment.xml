@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E5E5E5"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="天气演示界面"
+        android:textSize="30dp"
+        android:textColor="#ff1260ff"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff1260ff"
+        android:layout_gravity="center_horizontal"
+        android:text="               演示天气               "
+        android:textSize="20dp"
+        android:background="@drawable/button_tianqi"
+        android:id="@+id/sendd"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_tianqi"
+        android:textColor="#ff1260ff"
+        android:layout_gravity="center_horizontal"
+        android:text="               停止演示               "
+        android:textSize="20dp"
+        android:id="@+id/sendz" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_tianqi"
+        android:textColor="#ff1260ff"
+        android:layout_gravity="center_horizontal"
+        android:text="               演示下雨               "
+        android:textSize="20dp"
+        android:id="@+id/sendrrain" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_tianqi"
+        android:textColor="#ff1260ff"
+        android:layout_gravity="center_horizontal"
+        android:text="               演示多云               "
+        android:textSize="20dp"
+        android:id="@+id/sendrcloud" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_tianqi"
+        android:textColor="#ff1260ff"
+        android:layout_gravity="center_horizontal"
+        android:text="               演示雾天               "
+        android:textSize="20dp"
+        android:id="@+id/sendrcloud2" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_tianqi"
+        android:textColor="#ff1260ff"
+        android:layout_gravity="center_horizontal"
+        android:text="               演示晴天               "
+        android:textSize="20dp"
+        android:id="@+id/sendrclear" />
+
+</LinearLayout>

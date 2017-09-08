@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    
+    <fragment
+        android:id="@+id/first"
+        class="com.example.haydd.intelligenthourse.FirstFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/firstfragment" />
+    <fragment
+        android:id="@+id/second"
+        class="com.example.haydd.intelligenthourse.SecondFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/secondfragment" />
+    <fragment
+        android:id="@+id/third"
+        class="com.example.haydd.intelligenthourse.ThirdFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/thirdfragment" />
+
+    <fragment
+        android:id="@+id/forth"
+        class="com.example.haydd.intelligenthourse.ForthFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/forthfragment" />
+
+    <RadioGroup
+        android:id="@+id/all"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#4876FF"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/left"
+            style="@style/radio_button"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_button_left_change"
+            android:text="bluetooth"
+            />
+        <RadioButton
+            android:id="@+id/center"
+            style="@style/radio_button"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_button_change"
+            android:text="forecast"
+            />
+        <RadioButton
+            android:id="@+id/right"
+            style="@style/radio_button"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_button_right_change"
+            android:text="demo"
+            />
+
+        <RadioButton
+            android:id="@+id/last"
+            style="@style/radio_button"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_button_last_change"
+            android:text="today"
+            />
+
+    </RadioGroup>
+
+</RelativeLayout>

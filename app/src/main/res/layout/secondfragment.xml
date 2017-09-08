@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E5E5E5"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="天气预报界面"
+        android:textSize="30dp"
+        android:textColor="#ff1260ff"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ff29b2ff"
+        android:layout_gravity="center_horizontal"
+        android:text="现在是："/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:fillViewport="false">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_tianqi"
+                android:textColor="#ff1260ff"
+                android:layout_gravity="center_horizontal"
+                android:text="                  今天                    "
+                android:textSize="20dp"
+                android:id="@+id/sendNetr1"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="10dp" />
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_tianqi"
+            android:textColor="#ff1260ff"
+            android:layout_gravity="center_horizontal"
+            android:text="                  明天                    "
+            android:textSize="20dp"
+            android:id="@+id/sendNetr2"
+            />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_tianqi"
+                android:textColor="#ff1260ff"
+                android:layout_gravity="center_horizontal"
+                android:text="                  后天                    "
+                android:textSize="20dp"
+                android:id="@+id/sendNetr3"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_tianqi"
+                android:textColor="#ff1260ff"
+                android:layout_gravity="center_horizontal"
+                android:text="         第四天天气情况         "
+                android:textSize="20dp"
+                android:id="@+id/sendNetr4"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_tianqi"
+                android:textColor="#ff1260ff"
+                android:layout_gravity="center_horizontal"
+                android:text="         第五天天气情况         "
+                android:textSize="20dp"
+                android:id="@+id/sendNetr5"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_tianqi"
+                android:textColor="#ff1260ff"
+                android:layout_gravity="center_horizontal"
+                android:text="         第六天天气情况         "
+                android:textSize="20dp"
+                android:id="@+id/sendNetr6"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

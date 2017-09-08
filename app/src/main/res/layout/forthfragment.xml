@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E5E5E5"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="今天天气情况"
+        android:textSize="30dp"
+        android:textColor="#ff1260ff"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/forth_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ff29b2ff"
+        android:layout_gravity="center_horizontal"
+        android:text="现在是："/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff1260ff"
+        android:layout_gravity="center_horizontal"
+        android:text="               白天天气               "
+        android:textSize="20dp"
+        android:background="@drawable/button_tianqi"
+        android:id="@+id/bai"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_tianqi"
+        android:textColor="#ff1260ff"
+        android:layout_gravity="center_horizontal"
+        android:text="               夜间天气               "
+        android:textSize="20dp"
+        android:id="@+id/ye" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intelligent house</string>
+
+    <string name="hello_world">视频监控</string>
+    <string name="action_settings">Settings</string>
+    <string name="chose">请选择以下设备进行配对连接：</string>
+    <string name="title_activity_led">LedActivity</string>
+    <string name="title_activity_MyMainFrm">MyMainFrmActivity</string>
+    <string name="title_activity_BgPictureShowActivity">BgPictureShowActivity</string>
+    <string name="title_activity_MyVideo">MyVideo</string>
+</resources>

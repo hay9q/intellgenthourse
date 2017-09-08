@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\haydd\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="E:\android studio\intelligenthourse\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-462086198e88cc9f9574bd41fcb18fcc8e1e5e7b.jar" />
+    </item>
+    <item
+        jar="E:\android studio\intelligenthourse\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="E:\android studio\intelligenthourse\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-ebab7b798963f3b1f884f12748ea9917275924ba.jar" />
+    </item>
+    <item
+        jar="E:\android studio\intelligenthourse\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="E:\android studio\intelligenthourse\app\build\intermediates\pre-dexed\debug\classes-93c22c3f0c9e0d402ed02c2145b9be44cf0e1ae2.jar" />
+    </item>
+    <item
+        jar="E:\android studio\intelligenthourse\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="E:\android studio\intelligenthourse\app\build\intermediates\pre-dexed\debug\classes-1dffe9525190e2c2b87e12aceb3a4565e376f263.jar" />
+    </item>
+
+</items>
